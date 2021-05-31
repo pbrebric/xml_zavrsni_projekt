@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<eurovizija>
+ 
+  <drugo_polufinale>
+  
+    <natjecatelj id="1">
+      <drzava>San Marino</drzava>
+      <izvodac>Senhit</izvodac>
+      <naziv_pjesme>Adrenalina</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="2">
+      <drzava>Estonija</drzava>
+      <izvodac>Uku Suviste</izvodac>
+      <naziv_pjesme>The Lucky One</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="3">
+      <drzava>Češka</drzava>
+      <izvodac>Benny Cristo</izvodac>
+      <naziv_pjesme>Omaga</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="4">
+      <drzava>Grčka</drzava>
+      <izvodac>Stefania</izvodac>
+      <naziv_pjesme>Last Dance</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="5">
+      <drzava>Austrija</drzava>
+      <izvodac>Vincent Bueno</izvodac>
+      <naziv_pjesme>Amen</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="6">
+      <drzava>Poljska</drzava>
+      <izvodac>Rafal</izvodac>
+      <naziv_pjesme>The Ride</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="7">
+      <drzava>Moldavija</drzava>
+      <izvodac>Natalia Gordienko</izvodac>
+      <naziv_pjesme>Sugar</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="8">
+      <drzava>Island</drzava>
+      <izvodac>Daði og Gagnamagnið</izvodac>
+      <naziv_pjesme>10 Years</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="9">
+      <drzava>Srbija</drzava>
+      <izvodac>Hurricane</izvodac>
+      <naziv_pjesme>Loco Loco</naziv_pjesme>
+      <jezik_pjesme>srpski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="10">
+      <drzava>Gruzija</drzava>
+      <izvodac>Tornike Kipiani</izvodac>
+      <naziv_pjesme>You</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="11">
+      <drzava>Albanija</drzava>
+      <izvodac>Anxhela Peristeri</izvodac>
+      <naziv_pjesme>Karma</naziv_pjesme>
+      <jezik_pjesme>albanski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="12">
+      <drzava>Portugal</drzava>
+      <izvodac>The Black Mamba</izvodac>
+      <naziv_pjesme>Love Is On My Side</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="13">
+      <drzava>Bugarska</drzava>
+      <izvodac>Victoria</izvodac>
+      <naziv_pjesme>Growing Up Is Getting Old</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="14">
+      <drzava>Finska</drzava>
+      <izvodac>Blind Channel</izvodac>
+      <naziv_pjesme>Dark Side</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="15">
+      <drzava>Latvija</drzava>
+      <izvodac>Samanta Tina</izvodac>
+      <naziv_pjesme>The Moon Is Rising</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="16">
+      <drzava>Švicarska</drzava>
+      <izvodac>Gjon&apos;s Tears</izvodac>
+      <naziv_pjesme>Tout l&apos;Univers</naziv_pjesme>
+      <jezik_pjesme>francuski</jezik_pjesme>
+    </natjecatelj>
+    <natjecatelj id="17">
+      <drzava>Danska</drzava>
+      <izvodac>Fyr &amp; Flamme</izvodac>
+      <naziv_pjesme>Øve os på hinanden</naziv_pjesme>
+      <jezik_pjesme>danski</jezik_pjesme>
+    </natjecatelj>
+    
+  </drugo_polufinale>
+  
+</eurovizija>

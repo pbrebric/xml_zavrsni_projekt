@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<body>
+
+<table id="prvo"></table>
+<table id="drugo"></table>
+
+<script>
+var x,xmlhttp,xmlDoc
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "XMLprvo.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML; 
+
+x = xmlDoc.getElementsByTagName("natjecatelj");
+
+table="<tr><th>Drzava</th><th>Izvodjaci</th><th>Naziv pjesme</th><th>Jezik pjesme</th></tr>";
+for (i = 0; i <x.length; i++) { 
+  table += "<tr ><td>";
+  table += x[i].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("izvodac")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("naziv_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("jezik_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td></tr>";
+}
+document.getElementById("prvo").innerHTML = table;
+
+
+var y, x,xmlhttp,xmlDoc
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "XMLdrugo.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML; 
+
+x = xmlDoc.getElementsByTagName("natjecatelj");
+
+table="<tr><th>Drzava</th><th>Izvodjaci</th><th>Naziv pjesme</th><th>Jezik pjesme</th></tr>";
+for (i = 0; i <x.length; i++) { 
+  table += "<tr ><td>";
+  table += x[i].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("izvodac")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("naziv_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("jezik_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td></tr>";
+}
+document.getElementById("drugo").innerHTML = table;
+
+
+</script>
+
+</body>
+</html>

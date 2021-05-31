@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<eurovizija>
+
+  <prvo_polufinale>
+    
+    <natjecatelj id="prvi">
+      <drzava>Litva</drzava>
+      <izvodac>The Roop</izvodac>
+      <naziv_pjesme>Discoteque</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="drugi">
+      <drzava>Slovenija</drzava>
+      <izvodac>Ana Soklič</izvodac>
+      <naziv_pjesme>Amen</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="treci">
+      <drzava>Rusija</drzava>
+      <izvodac>Manizha</izvodac>
+      <naziv_pjesme>Russian Woman</naziv_pjesme>
+      <jezik_pjesme>engleski i ruski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="cetvrti">
+      <drzava>Švedska</drzava>
+      <izvodac>Tusse</izvodac>
+      <naziv_pjesme>Voices</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="peti">
+      <drzava>Australija</drzava>
+      <izvodac>Montaigne</izvodac>
+      <naziv_pjesme>Technicolour</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="sesti">
+      <drzava>Sjeverna Makedonija</drzava>
+      <izvodac>Vasil</izvodac>
+      <naziv_pjesme>Here I Stand</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="sedmi">
+      <drzava>Irska</drzava>
+      <izvodac>Lesley Roy</izvodac>
+      <naziv_pjesme>Maps</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="osmi">
+      <drzava>Cipar</drzava>
+      <izvodac>Elena Tsagrinou</izvodac>
+      <naziv_pjesme>El Diablo</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="deveti">
+      <drzava>Norveška</drzava>
+      <izvodac>Tix</izvodac>
+      <naziv_pjesme>Fallen Angel</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="deseti">
+      <drzava>Hrvatska</drzava>
+      <izvodac>Albina</izvodac>
+      <naziv_pjesme>Tick-Tock</naziv_pjesme>
+      <jezik_pjesme>engleski i hrvtski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="jedanaesti">
+      <drzava>Belgija</drzava>
+      <izvodac>Hooverphonic</izvodac>
+      <naziv_pjesme>The Wrong Place</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="dvanaesti">
+      <drzava>Izrael</drzava>
+      <izvodac>Eden Alene</izvodac>
+      <naziv_pjesme>Set Me Free</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="trinaesti">
+      <drzava>Rumunjska</drzava>
+      <izvodac>Roxen</izvodac>
+      <naziv_pjesme>Amnesia</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="cetrnaesti">
+      <drzava>Azerbajdžan</drzava>
+      <izvodac>Efendi</izvodac>
+      <naziv_pjesme>Mata Hari</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="petnaesti">
+      <drzava>Ukrajina</drzava>
+      <izvodac>Go_A</izvodac>
+      <naziv_pjesme>Shum</naziv_pjesme>
+      <jezik_pjesme>ukrajinski</jezik_pjesme>
+    </natjecatelj>
+    
+    <natjecatelj id="sesnaesti">
+      <drzava>Malta</drzava>
+      <izvodac>Destiny</izvodac>
+      <naziv_pjesme>Je Me Casse</naziv_pjesme>
+      <jezik_pjesme>engleski</jezik_pjesme>
+    </natjecatelj>
+    
+  </prvo_polufinale>
+  
+</eurovizija>

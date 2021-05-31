@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+
+<html lang="hr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>eurovizija</title>
+	
+	<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 10px;
+}
+</style>
+</head>
+
+
+<body >
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+    <header>
+        <div class="izbornik">
+            <img class="col-lg-2 col-xs-2 s1" src="logo.png">
+		 <div class="col-lg-8"></div>
+            <div class="nav">
+			
+					<ul>
+						<li><a href="eurovizija_pbrebric.html">POČETNA</a></li>
+						<li><a href="finale_eurovizija.html">FINALE</a></li>
+						<li><a href="pobjednici.html">POBJEDNICI</a></li>
+					</ul>
+                
+            </div>
+           
+		</div>
+
+    </header>
+	</div>
+</div>
+
+<div class="container-fluid content">
+		<div class="row">
+    <div class="col-sm-2 col-xs-2"></div>
+    <div class="col-sm-8 col-xs-8" id="opcenito" > 
+	<br> <br> <br> <br>
+        <h1>Općenito o natjecanju</h1>
+					
+					<p class="text">
+						Pjesma Eurovizije 2021. bit će 65. po redu natjecanje za najbolju pjesmu Eurovizije. Natjecanje će se održati u Nizozemskoj, odnosno u Rotterdamu nakon pobjede Duncana Laurenca s pjesmom Arcade na Eurosongu 2019.
+						Natjecanje započinje u utorak 18.5.2021. gdje će u prvom polufinalu 16 država održati svoj nastup.
+						Drugo polufinale će se održati u četvrtak 20.5.2021. gdje se preostalih 17 država bore za finale.
+						U finale ulazi 26 država, gdje ih 20 mora zaslužiti svoj ulazak, a velikih pet( Italija, Ujedinjeno Kraljevstvo, Njemačka, Francuska i Španjolska) te domaćin( ovogodišnja Nizozemska) imaju osiguran ulazak i bez natjecanja u polufinalu.
+					</p>
+					</div>
+					</div>
+       <div class="row">
+	    <div class="col-lg-2 col-xs-2"></div>		
+				<div class="col-sm-8 col-xs-8" id="opcenito" > 
+					<h1>Prvo polufinale</h1>
+					<br>
+
+					<table id="prvo"></table>
+
+					<br>
+					
+					<h1>Drugo polufinale</h1>
+       
+					<br>
+	   
+	   				<table id="drugo"></table>
+
+					<br>
+ 
+     </div>
+	</div>
+
+</div>
+
+
+
+<script>
+var y, x,xmlhttp,xmlDoc
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "XMLprvo.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML; 
+
+x = xmlDoc.getElementsByTagName("natjecatelj");
+
+table="<tr><th>Drzava</th><th>Izvodjaci</th><th>Naziv pjesme</th><th>Jezik pjesme</th></tr>";
+for (i = 0; i <x.length; i++) { 
+  table += "<tr ><td>";
+  table += x[i].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("izvodac")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("naziv_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("jezik_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td></tr>";
+}
+document.getElementById("prvo").innerHTML = table;
+
+
+
+var y, x,xmlhttp,xmlDoc
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "XMLdrugo.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML; 
+
+x = xmlDoc.getElementsByTagName("natjecatelj");
+
+table="<tr><th>Drzava</th><th>Izvodjaci</th><th>Naziv pjesme</th><th>Jezik pjesme</th></tr>";
+for (i = 0; i <x.length; i++) { 
+  table += "<tr ><td>";
+  table += x[i].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("izvodac")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("naziv_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("jezik_pjesme")[0].childNodes[0].nodeValue;
+  table += "</td></tr>";
+}
+document.getElementById("drugo").innerHTML = table;
+
+
+</script>
+
+</body>
+
+<footer >
+    <div class="container">
+	<div class="row">
+	<div class="col-sm-2 col-xs-2"></div>
+        <div class="col-sm-4 col-xs-4" id="kraj">
+            <img id="2" src="eurologo.png">
+        </div>
+        </div>
+    </div>
+ </div>
+</footer>
+
+
+</html>
